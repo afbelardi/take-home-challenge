@@ -164,7 +164,7 @@ const mockBlog = [
 module.exports = mockBlog
 ```
 ### The json API should
-1. Have an Index, Create, Update, Delete, Show route using paths (/blog and /blog/:id)
+1. Have an Index, Create, Show route using paths (/blog and /blog/:id) Delete and Update not necessary
 1. Run on port 3008
 1. Accept JSON data not urlencoded data
 1. Be testible by me via postman
